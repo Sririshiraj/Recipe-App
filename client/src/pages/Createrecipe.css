@@ -1,0 +1,114 @@
+.abc{
+    display: flex;
+    flex-direction: column;
+}
+/* General container for the Create Recipe form */
+.create-recipe {
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  /* Title styling */
+  .create-recipe h2 {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  /* Label styling */
+  .create-recipe label {
+    display: block;
+    font-size: 16px;
+    font-weight: 600;
+    color: #333;
+    margin-top: 10px;
+    text-align: left;
+  }
+  
+  /* Input fields and textarea */
+  .create-recipe input,
+  .create-recipe textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0 20px;
+    font-size: 14px;
+    border: 1px solid #131212;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  
+  .create-recipe input:focus,
+  .create-recipe textarea:focus {
+    border-color: #18b657;
+    outline: none;
+  }
+  
+  /* Button styles */
+  .create-recipe button {
+    width: 100%;
+    padding: 12px;
+    background-color: #18b657;
+    color: white;
+    font-size: 16px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .create-recipe button:hover {
+    background-color: #003d80;
+  }
+  
+  .create-recipe button:active {
+    background-color: #002b5d;
+  }
+  
+  /* Styling for ingredients input fields */
+  .create-recipe .ingredients-input {
+    margin-bottom: 10px;
+  }
+  
+  .create-recipe button[type="button"] {
+    background-color: #18b657;
+    margin-top: 10px;
+    padding: 10px;
+    width: 100%;
+    color: white;
+    border-radius: 4px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .create-recipe button[type="button"]:hover {
+    background-color: #18b657;
+  }
+  
+  /* Container for the whole form */
+  .abc {
+    padding: 20px;
+  }
+  
+  /* Responsive Design: for smaller screen sizes */
+  @media (max-width: 480px) {
+    .create-recipe {
+      padding: 15px;
+    }
+  
+    .create-recipe h2 {
+      font-size: 20px;
+    }
+  
+    .create-recipe input,
+    .create-recipe textarea,
+    .create-recipe button {
+      font-size: 14px;
+    }
+  }
+  

@@ -1,0 +1,91 @@
+/* General styles for the login page */
+.login-container {
+    width: 100%;
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f4f4f9;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  /* Style for the image container */
+  .image-container {
+    margin-bottom: 20px;
+  }
+  
+  /* Style for the logo image */
+  .login-image {
+    width: 100px; /* You can adjust this size */
+    height: auto;
+    object-fit: contain;
+  }
+  
+  /* Form and input field styles */
+  .form-group {
+    margin-bottom: 15px;
+    text-align: left;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 5px;
+    font-size: 14px;
+    font-weight: 600;
+  }
+  
+  input[type="email"],
+  input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  
+  input[type="email"]:focus,
+  input[type="password"]:focus {
+    border-color: #0056b3;
+    outline: none;
+  }
+  
+  /* Style for the error message */
+  .error-message {
+    color: red;
+    font-size: 14px;
+    margin-top: 10px;
+  }
+  
+  /* Button styles */
+  .login-button {
+    width: 100%;
+    padding: 12px;
+    background-color: #0056b3;
+    color: white;
+    font-size: 16px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .login-button:hover {
+    background-color: #003d80;
+  }
+  
+  .login-button:active {
+    background-color: #002b5d;
+  }
+  
+  /* Responsiveness */
+  @media (max-width: 480px) {
+    .login-container {
+      padding: 15px;
+    }
+  
+    .login-image {
+      width: 80px; /* Smaller logo on mobile */
+    }
+  }
+  
